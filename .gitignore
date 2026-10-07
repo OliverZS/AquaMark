@@ -1,0 +1,20 @@
+# ---- Runtime leftovers of the local preview server (server.ps1) ----
+.server.pid
+.server.ready
+_bat.log
+_diag.txt
+_served.html
+
+# ---- Editor scratch / auto-save copies ----
+*.bak
+*.tmp
+*.swp
+*~
+
+# ---- OS junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Logs ----
+*.log

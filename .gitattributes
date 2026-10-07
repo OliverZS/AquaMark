@@ -1,0 +1,20 @@
+# Store everything as LF inside the repository, restore native line endings on checkout.
+* text=auto
+
+# Windows launcher scripts MUST keep CRLF on checkout.
+# cmd.exe handles `for` blocks and `goto` unreliably when a .bat is LF-only.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.vbs text eol=crlf
+
+# Plain text / docs
+*.html text
+*.txt  text
+*.md   text
+*.py   text eol=lf
+
+# Binaries - never touch
+*.ico  binary
+*.png  binary
+*.exe  binary
